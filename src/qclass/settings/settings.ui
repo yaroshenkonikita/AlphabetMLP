@@ -79,7 +79,7 @@ selection-background-color: rgb(11, 11, 11);</string>
         <number>1</number>
        </property>
        <property name="maximum">
-        <number>10</number>
+        <number>1000</number>
        </property>
       </widget>
      </item>
@@ -105,7 +105,7 @@ selection-background-color: rgb(11, 11, 11);</string>
         <number>1</number>
        </property>
        <property name="maximum">
-        <number>5</number>
+        <number>20</number>
        </property>
       </widget>
      </item>
@@ -128,10 +128,10 @@ selection-background-color: rgb(11, 11, 11);</string>
      <item>
       <widget class="QSpinBox" name="layers_spin_box">
        <property name="minimum">
-        <number>2</number>
+        <number>1</number>
        </property>
        <property name="maximum">
-        <number>5</number>
+        <number>20</number>
        </property>
       </widget>
      </item>
@@ -157,7 +157,7 @@ selection-background-color: rgb(11, 11, 11);</string>
         <number>1</number>
        </property>
        <property name="maximum">
-        <number>256</number>
+        <number>1000</number>
        </property>
       </widget>
      </item>
@@ -180,19 +180,19 @@ selection-background-color: rgb(11, 11, 11);</string>
      <item>
       <widget class="QDoubleSpinBox" name="learning_rate_double_spin_box">
        <property name="decimals">
-        <number>3</number>
+        <number>10</number>
        </property>
        <property name="minimum">
-        <double>0.001000000000000</double>
+        <double>0.000000000100000</double>
        </property>
        <property name="maximum">
-        <double>10.000000000000000</double>
+        <double>1000.000000000000000</double>
        </property>
        <property name="singleStep">
-        <double>0.010000000000000</double>
+        <double>0.000001000000000</double>
        </property>
        <property name="value">
-        <double>0.200000000000000</double>
+        <double>0.000002000000000</double>
        </property>
       </widget>
      </item>
